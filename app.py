@@ -459,6 +459,9 @@ if menu == "🏠 Beranda":
 
     Metode yang digunakan adalah **Fuzzy K-Nearest Neighbor (FKNN)**.
     """)
+    st.write(""""
+    Platform online yang digunakan untuk memudahkan pengelola tanaman edamame dalam mendiagnosis tanaman yang terkena gejala penyakit pada tanaman mereka.
+    Website ini menggunakan teknologi sistem pakar dengan perhitungan data masa lalu pada metode FKNN."""
 
 # =========================
 # DIAGNOSA
