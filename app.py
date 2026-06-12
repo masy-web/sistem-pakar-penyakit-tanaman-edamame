@@ -461,7 +461,7 @@ if menu == "🏠 Beranda":
     """)
     st.write(""""
     Platform online yang digunakan untuk memudahkan pengelola tanaman edamame dalam mendiagnosis tanaman yang terkena gejala penyakit pada tanaman mereka.
-    Website ini menggunakan teknologi sistem pakar dengan perhitungan data masa lalu pada metode FKNN."""
+    Website ini menggunakan teknologi sistem pakar dengan perhitungan data masa lalu pada metode FKNN.""")
 
 # =========================
 # DIAGNOSA
@@ -1299,7 +1299,5 @@ elif menu == "📋 Riwayat Saya":
                         "🔍",
                         key=f"detail_saya_{row['id']}"
                     ):
-
                         st.session_state.id_detail_riwayat = int(row["id"])
-
                         detail_riwayat_staff()
